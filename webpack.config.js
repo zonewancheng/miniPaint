@@ -6,9 +6,9 @@ module.exports = {
 		'./src/js/main.js',
 	],
 	output: {
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, 'public'),
 		filename: 'bundle.js',
-		publicPath: './public/'
+		publicPath: '/public/'
 	},
 	resolve: {
 		extensions: ['.js', '.css'],
